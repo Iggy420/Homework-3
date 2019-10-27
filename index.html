@@ -8,7 +8,6 @@
         </title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
 
     </head>
 <body>
@@ -29,9 +28,9 @@
                 <br />
                 <input type="range" min="0" max="50" name="slider" id="slider">
                 <br />
-                <button onclick="">Generate</button>
-                <button onclick="">Cpy to Clipboard</button>
-                <div id="legnth"></div>
+                <button onclick="generate() ">Generate</button>
+                <button onclick="copyToClipboard()">Copy to Clipboard</button>
+                <div id="length"></div>
             </div>
 
             <div class="previos_passwords">
@@ -43,6 +42,7 @@
         </div>
 
     </div>
+    <script src="script.js"></script>
 
 </body>
 </html>

@@ -1,16 +1,25 @@
 .content{
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: lightgray;
+    background-color: rgb(224, 95, 77);
     padding: 20px;
     width: 100%;
+    border: red inset;
 }
-
+h4 {
+    color: yellow;
+}
 #display{
     width: 100%;
+    border: inset;
 
 }
 
 #slider{
     width: 100%
+
+}
+
+#length{
+    display: inline-block;
 }
